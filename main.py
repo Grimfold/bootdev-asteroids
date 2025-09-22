@@ -28,6 +28,9 @@ def main():
         # Black background
         screen.fill("black")
 
+        # Update Player position
+        p.update(dt)
+
         # Draw Player
         p.draw(screen)
 
