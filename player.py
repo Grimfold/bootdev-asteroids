@@ -2,6 +2,7 @@ import circleshape, pygame
 from constants import *
 
 class Player(circleshape.CircleShape):
+
     def __init__(self, x, y):
         self.radius = PLAYER_RADIUS
         super().__init__(x, y, self.radius)
