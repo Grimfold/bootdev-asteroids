@@ -55,7 +55,7 @@ def main():
             for ammo in shots:
                 if roid.collision(ammo):
                     ammo.kill()
-                    roid.kill()
+                    roid.split()
 
         # Draw drawables
         for drawable in drawables:
